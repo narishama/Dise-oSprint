@@ -35,30 +35,61 @@
     </nav>
 </header>
 
-<main class="hero">
-<div class="hero__text">
-<h2>Consulta <span class="hero__title">rutas, horarios y paradas</span> de buses en Quito</h2>
-<a href="#" class="button hero__button">Buscar línea</a>
-</div>
+<main class="hero container-main">
+    
+    <div class="hero__left">
+        <div class="hero__badge">
+            <p>Quito Transporte Sur-Norte</p>
+        </div>
 
-<div class="hero__img">
-<img src="/images/bus1.jpg" alt="Bus Quito">
-</div>
+        <div class="hero__content">
+            <h2 class="hero__headline">Ver buses y hora de llegada estimada</h2>
+            
+            <div class="hero__timer-box">
+                <span class="timer">00:00:00</span>
+                <p class="timer__label">Hora actual</p>
+            </div>
 
-<div class="hero__services">
-<div class="service">
-<p>Rutas</p>
-</div>
-<div class="service">
-<p>Horarios</p>
-</div>
-<div class="service">
-<p>Paradas</p>
-</div>
-<div class="service">
-<p>Tiempo Real</p>
-</div>
-</div>
+            <a href="#" class="hero__link">compañías <i class='bx bx-right-arrow-alt'></i></a>
+
+            <div class="hero__gallery">
+                <div class="gallery__item">
+                    <img src="./src/images/bus-station.jpg" alt="Estación de bus">
+                </div>
+                <div class="gallery__item">
+                    <img src="./src/images/metro-quito.jpg" alt="Metro de Quito">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <aside class="hero__right">
+        <div class="panel__card panel__card--header">
+            <h3>QUITO</h3>
+            <p>TRANSPORTATION</p>
+        </div>
+
+        <div class="panel__group">
+            <label class="panel__label">ubicación</label>
+            <div class="panel__placeholder-map"></div>
+        </div>
+
+        <div class="panel__group">
+            <label class="panel__label">información de compañía</label>
+            <div class="panel__input-box">
+                <input type="text" value="Colectrans LujoTurista Metrotrans" readonly>
+                <span class="timer--red">00:00:00</span>
+            </div>
+        </div>
+
+        <div class="panel__fields">
+            <input type="text" placeholder="Country or region" class="panel__input">
+            <input type="text" class="panel__input">
+        </div>
+
+        <button class="button panel__button">puntuación de app</button>
+    </aside>
+
 </main>
 
 <section class="container">
