@@ -9,8 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" rel="preload">
-    <link rel="stylesheet" href="./src/css/normalize.css">
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/877/877669.png" type="image/x-icon">
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet' rel="preload">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" rel="preload"/>
@@ -18,18 +18,21 @@
 </head>
 <body>
 
-<header class="container">
-<nav class="navbar__container">
-<h1 class="navbar__logo">Buses<span class="navbar__logo--primary">Quito</span></h1>
-<ul>
-<li><a href="#">Inicio</a></li>
-<li><a href="#">Rutas</a></li>
-<li><a href="#">Paradas</a></li>
-<li><a href="#">Horarios</a></li>
-<li><a href="#">Mapa</a></li>
-<li><a href="#">Contacto</a></li>
-</ul>
-</nav>
+<header class="header">
+    <nav class="navbar container">
+        <div class="navbar__logo-container">
+            <h1 class="navbar__logo">Buses<span class="navbar__logo--primary">Quito</span></h1>
+        </div>
+        
+        <ul class="navbar__menu">
+            <li><a href="#" class="navbar__link">Inicio</a></li>
+            <li><a href="#" class="navbar__link">Rutas</a></li>
+            <li><a href="#" class="navbar__link">Paradas</a></li>
+            <li><a href="#" class="navbar__link">Horarios</a></li>
+            <li><a href="#" class="navbar__link">Mapa</a></li>
+            <li><a href="#" class="navbar__link">Contacto</a></li>
+        </ul>
+    </nav>
 </header>
 
 <main class="hero">
